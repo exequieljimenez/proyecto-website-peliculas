@@ -1,0 +1,65 @@
+[
+{
+    "titulo": "La morada del diablo",
+    "anio": 1896,
+    "director": "Melies",
+    "urlVideo": "https://www.youtube.com/embed/jyKYkep6DjE",
+    "afiche": "./media/manoir-melies-1896.jpg"
+},
+{
+    "titulo": "Las cuatrocientas farsas del diablo",
+    "anio": 1906,
+    "director": "Melies",
+    "urlVideo": "https://www.youtube.com/embed/BI3F5jJIM3o",
+    "afiche": "./media/farces-diable-melies-1906.jpg"
+},
+{
+    "titulo": "El estudiante de Praga",
+    "anio": 1913,
+    "director": "Rye",
+    "urlVideo": "https://www.youtube.com/embed/kNgTKRpBz6Y",
+    "afiche": "./media/rye-prag-1913.jpg"
+},
+{
+    "titulo": "El Golem",
+    "anio": 1914,
+    "director": "Wegener",
+    "urlVideo": "https://www.youtube.com/embed/2A0lMPde6q8",
+    "afiche": "./media/der-golem-1914.jpg"
+},
+{
+    "titulo": "Los vampiros",
+    "anio": 1915,
+    "director": "Feuillade",
+    "urlVideo": "https://www.youtube.com/embed/9EJC_XR-E08",
+    "afiche": "./media/les-vampires-1915.jpg"
+},
+{
+    "titulo": "El gabinete del Dr. Caligari",
+    "anio": 1920,
+    "director": "Wiene",
+    "urlVideo": "https://www.youtube.com/embed/IP0KB2XC29o",
+    "afiche": "./media/cabinet-caligari-1920.jpg"
+},
+{
+    "titulo": "Dr. Jekyll y Mr. Hyde",
+    "anio": 1920,
+    "director": "Robertson",
+    "urlVideo": "https://www.youtube.com/embed/kjQaAK5Vof4",
+    "afiche": "./media/dr-jekyll-1920.jpg"
+},
+{
+    "titulo": "La carreta fantasma",
+    "anio": 1921,
+    "director": "Sjostrom",
+    "urlVideo": "https://www.youtube.com/embed/DUX2w7TFNHQ",
+    "afiche": "./media/korkarlen-1921.jpg"
+},
+{
+    "titulo": "Páginas del diario de Satán",
+    "anio": 1921,
+    "director": "Dreyer",
+    "urlVideo": "https://www.youtube.com/embed/4lJOmrXivu4",
+    "afiche": "./media/satans-dreyer-1921.jpg"
+}
+]

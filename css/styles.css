@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap');
+
+:root {
+    --fuente-texto: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    background-color: #2b2b2b;
+    color: white;
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh; 
+}
+
+header {
+    grid-area: header;
+}
+
+.superMenu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.superMenu h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    cursor: pointer;
+    list-style-type: none;
+    font-family: var(--fuente-texto);
+    margin: 15px 50px;
+}
+
+.menu li:hover {
+    font-weight: bolder;
+}
+
+.subMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fuente-texto);
+    font-size: large;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgrey;
+}
+
+main {
+    grid-area: main;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fuente-texto);
+    font-size: 1.5em;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+    color: black
+}
+
+.card p {
+    margin: .5em;
+}
+
+.card img {
+    max-height: 481px;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.estiloPeliculas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header button {
+    font-family: var(--fuente-texto);
+    font-size: medium;
+}
+
+#tituloPagina {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-texto);
+    font-size: 2em;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+
+#fechaYHora {
+    font-family: var(--fuente-texto);
+    font-size: medium;
+}
+
+footer button {
+    font-family: var(--fuente-texto);
+    font-size: medium;
+    margin: 1rem;
+}
+
+.modoClaro {
+    background-color: white;
+    color: #2b2b2b;
+}
+
+#botonOscuro {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+#botonClaro {
+    background-color: white;
+    color:#2b2b2b;
+}
+
+.card button {
+    font-family: var(--fuente-texto);
+    font-size: 1em;
+}
+
+.swal2-title {
+    font-family: var(--fuente-texto);
+}
+
+.swal2-html-container {
+    font-family: var(--fuente-texto);
+    font-weight: bolder;
+}
+
+.swal2-confirm {
+    font-family: var(--fuente-texto);
+    background-color: #2b2b2b;
+}
+
+.swal2-actions {
+    font-size: 1.5em;
+}
+
+.toastify {
+    background: "#2b2b2b";
+    font-size: 1.5em;
+    font-family: var(--fuente-texto);
+}

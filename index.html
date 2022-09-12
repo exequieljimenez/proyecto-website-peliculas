@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CINE, TERROR, DOMINIO PUBLICO, CLASICOS">
+    <meta name="description" content='"El Gabinete" es un sitio dedicado a la preservación y difusión de películas pertenecientes al dominio público con particular acento en el género del terror''>
+    <link rel="shortcut icon" href="./media/logo-gabinete.svg">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>El Gabinete</title>
+</head>
+<body>
+    <header>
+        <div class="superMenu">
+            <h1 id="nombreSitio" style="cursor:pointer">El Gabinete</h1>
+            <ul class="menu">
+                <li id="lista">Lista completa</li>
+                <li id="busqueda">Búsqueda</li>
+                <li id="favoritas">Favoritas</li>
+            </ul>
+        </div>
+        <div id="subMenu">
+        </div>
+    </header>
+    <main id="mainLista">
+        <h2 id="tituloPagina">Bienvenidos a "El Gabinete", un sitio dedicado a la preservación y difusión de películas pertenecientes al dominio público con particular acento en los géneros del terror, el misterio y el thriller</h2>
+        <div id="peliculas"></div>
+    </main>
+    <footer>
+        <div>
+            <p id="fechaYHora"></p>
+        </div>
+        <div>
+            <button id="botonOscuro">Modo Oscuro</button>
+            <button id="botonClaro">Modo Claro</button>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
