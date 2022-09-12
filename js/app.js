@@ -178,7 +178,7 @@ function mostrarResultados(resultadoBusqueda) {
         divPeliculas.appendChild(nuevaPelicula)
         let botonVerPelicula = document.getElementById(`verPelicula${contadorBusqueda}`)
         let botonFavoritas = document.getElementById(`agregarAFavoritas${contadorBusqueda}`)
-        contadorLista++
+        contadorBusqueda++
         botonVerPelicula.addEventListener('click', () => verPelicula(pelicula))
         botonFavoritas.addEventListener("click", () => agregarAFavoritas(pelicula))
     })
