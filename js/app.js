@@ -19,7 +19,7 @@ function mostrarMenuLista() {
         Lista completa de películas
     </div>
     <section class="opciones">
-        <button id="verTodas">Ver Lista completa</button>
+        <button id="verTodas">Cliquee aquí para ver Lista completa</button>
     </section>`
     let botonMostrar = document.getElementById("verTodas")
     botonMostrar.addEventListener("click", mostrarListaCompleta)
@@ -70,9 +70,9 @@ function mostrarMenuFavoritas() {
     let subMenuFavoritas = document.getElementById("subMenu")
     subMenuFavoritas.setAttribute("class", "subMenu")
     subMenuFavoritas.innerHTML = `
-        <div>Ver lista de películas favoritas</div>
+        <div>Lista de películas favoritas</div>
         <section class="opciones">
-            <button id="botonMostrarFavoritas">Ver favoritas</button>
+            <button id="botonMostrarFavoritas">Cliquee aquí para ver favoritas</button>
         </section>`
     let botonMostrarFavoritas = document.getElementById("botonMostrarFavoritas")
     botonMostrarFavoritas.addEventListener("click", favoritasONo)
