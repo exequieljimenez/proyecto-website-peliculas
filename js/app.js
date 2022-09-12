@@ -151,13 +151,9 @@ function busqueda(termino, datoPeli, valorInput) {
 // la función resultadoONo chequea el largo del array obtenido antes con el método filter. si el largo es cero avisa al usuario que la busqueda no arrojó resultados. Si el array tiene uno o más elementos llama a la función mostrar resultados utilizando el array como parámetro
 function resultadoONo(resultado) {
         
-    if (resultado.length == 0) {
-        divPeliculas.innerHTML = ""
-        tituloPagina.innerText = "Su búsqueda no arrojó resultados"
-    }
-    else {
-        mostrarResultados(resultado)
-    }
+    divPeliculas.innerHTML = ""
+
+    resultado.length == 0 ? tituloPagina.innerText = "Su busqueda no arrojó resultados" : mostrarResultados(resultado)
 }
 
 // la función mostrarResultados recibe un array de uno o más elementos y realiza un ciclo forEach. Utilizando DOM el forEach muestra los atributos de los objetos en el array los botones para ver película o enviar a favoritas. Cada uno de los botones llama a una función específica
